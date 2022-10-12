@@ -14,13 +14,13 @@ const Event = mongoose.model('Event', new mongoose.Schema({
     minlength: 3,
     maxlength: 20
   },
-  eventDate: {// find how to select date from backend
+  eventDate: {
     type: String,
     required: true,
     minlength: 3,
     maxlength: 20
   },
-  eventTime: { //find how to select time from backend
+  eventTime: { 
     type: String,
     required: true,
     minlength: 3,

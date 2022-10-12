@@ -46,7 +46,7 @@ function validateGuest(guest) {
     title:  Joi.string().min(2).max(10).required(),
     firstname: Joi.string().min(2).max(50).required(),
     surname: Joi.string().min(2).max(50).required(),
-    seatnumber:Joi.number().min(1).max(100000).required(),
+    seatnumber:Joi.number().min(1).max(10000).required(),
     picture:Joi.string().required(),
     };
   

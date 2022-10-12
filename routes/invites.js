@@ -45,6 +45,7 @@ router.get('/', async (req, res) => {
     res.send(invite);
   });
 
+  //edit
   router.put('/:id', async (req, res) => {
 
     const { error } = validate(req.body); 
